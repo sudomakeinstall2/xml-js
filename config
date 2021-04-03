@@ -1,3 +1,4 @@
-pathToExecutable: fuzz.js
-args: ""
+target: fuzz.js
 lang: js
+build:
+  - npm install
