@@ -2,7 +2,7 @@ var convert = require('./index.js');
 
 function fuzz(buff){
    try{
-       var doc = convert.xml2json(buff, {compact: true, spaces: 4});
+       var doc = convrt.xml2json(buff, {compact: true, spaces: 4});
    } catch(e) {
 //     if (e instanceof yaml.YAMLException){}
      if (e.message.includes("Text data outside of root node") || 
