@@ -1,5 +1,4 @@
 var convert = require('./index.js');
-
 function fuzz(buff){
    try{
        var doc = convert.xml2json(buff, {compact: true, spaces: 4});
